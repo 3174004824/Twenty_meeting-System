@@ -89,7 +89,7 @@ public class UserController {
      * @param encryptedData   加密的数据
      * @param iv              关键字
      * @param _3rdsession     用户唯一标识
-     * @return
+     * @return    测试文件
      */
     @RequestMapping(value = "/getstepnum",method = RequestMethod.POST)
     public Result decryptWxData(@RequestParam("encryptedData") String encryptedData,@RequestParam("iv")
